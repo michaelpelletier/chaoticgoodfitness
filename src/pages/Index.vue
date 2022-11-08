@@ -22,53 +22,57 @@
         <g-image alt="A photo of Keira" src="~/assets/images/keira1.jpg" />
       </div>
 
-      <carousel
-        class="reviews"
-        :perPage="1"
-        :loop="true"
-        :autoplay="true"
-        :autoplayTimeout="5000"
-      >
-        <slide
-          class="review"
-          v-for="review in reviews"
-          :key="review.id"
+      <ClientOnly>
+        <carousel
+          class="reviews"
+          :perPage="1"
+          :loop="true"
+          :autoplay="true"
+          :autoplayTimeout="5000"
         >
-          <div class="review--score">
-            <svg title="star rating" class="star__icon">
-              <use xlink:href="#star"></use>
-            </svg>
-            <svg title="star rating" class="star__icon">
-              <use xlink:href="#star"></use>
-            </svg>
-            <svg title="star rating" class="star__icon">
-              <use xlink:href="#star"></use>
-            </svg>
-            <svg title="star rating" class="star__icon">
-              <use xlink:href="#star"></use>
-            </svg>
-            <svg title="star rating" class="star__icon">
-              <use xlink:href="#star"></use>
-            </svg>
-          </div>
+          <slide
+            class="review"
+            v-for="review in reviews"
+            :key="review.id"
+          >
+            <div class="review--score">
+              <svg title="star rating" class="star__icon">
+                <use xlink:href="#star"></use>
+              </svg>
+              <svg title="star rating" class="star__icon">
+                <use xlink:href="#star"></use>
+              </svg>
+              <svg title="star rating" class="star__icon">
+                <use xlink:href="#star"></use>
+              </svg>
+              <svg title="star rating" class="star__icon">
+                <use xlink:href="#star"></use>
+              </svg>
+              <svg title="star rating" class="star__icon">
+                <use xlink:href="#star"></use>
+              </svg>
+            </div>
 
-          <div class="review--inner">
-            <span class="quote-container">
-              <span class="quote">“</span>
-            </span>
-            {{review.content}}”
-          </div>
-          <div class="review--author">
-            - {{review.by}}
-          </div>
-        </slide>
-      </carousel>
+            <div class="review--inner">
+              <span class="quote-container">
+                <span class="quote">“</span>
+              </span>
+              {{review.content}}”
+            </div>
+            <div class="review--author">
+              - {{review.by}}
+            </div>
+          </slide>
+        </carousel>
+      </ClientOnly>
 
     </div>
   </Layout>
 </template>
 
 <script>
+// import { Carousel, Slide } from 'vue-carousel';
+
 export default {
   metaInfo: {
     title: 'Tell Your Own Story'
@@ -78,7 +82,7 @@ export default {
     Carousel: () =>
       import ('vue-carousel').then(m => m.Carousel).catch(),
     Slide: () =>
-      import ('vue-carousel').then(m => m.Slide).catch()
+      import ('vue-carousel').then(m => m.Slide).catch(),
   },
 
   data() {
