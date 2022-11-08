@@ -8,6 +8,18 @@
 
     <p>CG Fitness views fitness and health in the same way. We are client-centered and body positive. We focus on the individual client’s needs and goals without trying to fit them into the standards set up by the fitness industry. Each client has a unique background, goal, and body that deserves to be valued and considered when working together. We don’t expect all of our clients to look, act, feel, or need the same thing, so we don’t use a pre-packaged, uniform program.</p>
 
+    <div class="about-photos">
+      <div class="about-photo">
+        <g-image alt="A photo of Keira working out" src="~/assets/images/keira2.jpg" />
+      </div>
+      <div class="about-photo">
+        <g-image alt="A photo of Keira working out" src="~/assets/images/keira3.jpg" />
+      </div>
+      <div class="about-photo">
+        <g-image alt="A photo of Keira working out" src="~/assets/images/keira4.jpg" />
+      </div>
+    </div>
+
     <p>We focus on what’s right for you, whether or not it looks like what magazines tell you you need to look like. Some clients want weight loss programs, but some join us for pain management and reduction. Others have worked with us for pre-surgical body change needs. The owner does this for stress management! No matter why you come to us, we will find ways to help you level up.</p>
 
     <p>There is no one size fits all magic answer to fitness and health goals and there is no one size fits all body shape. There is no quick, easy route to take. Making health improvements is hard work, but we are here to guide you through the journey. CG Fitness is about making improvements at your pace for you. </p>

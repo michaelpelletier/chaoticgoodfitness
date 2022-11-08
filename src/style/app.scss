@@ -172,9 +172,33 @@ footer {
 }
 
 .homepage {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  .homepage--section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    img {
+      flex-grow: 1;
+      flex-shrink: 1;
+      align-self: center;
+      width: 50%;
+      height: auto;
+      margin-left: 24px;
+      flex-basis: 50%;
+    }
+
+  }
+
+  .homepage--photo {
+    margin: 24px auto;
+    text-align: center;
+
+    img {
+      max-width: 400px;
+      min-width: 300px;
+      width: 50%;
+    }
+  }
 
   .mtg-placeholder {
     align-items: center;
@@ -194,6 +218,10 @@ footer {
 
   .premise {
     width: calc(100% - 400px - 12px);
+
+    img {
+      width: 100%;
+    }
   }
 }
 
@@ -305,6 +333,88 @@ table {
   margin: 24px;
   text-align: center;
 }
+
+.about-photos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  .about-photo {
+    flex-basis: calc(33% - 24px);
+    margin: 0 12px;
+  }
+
+  img {
+    width: 100%;
+  }
+}
+
+
+.reviews {
+  width: 100%;
+}
+
+.VueCarousel-pagination .VueCarousel-dot-container {
+  margin-top: 0!important;
+
+  .VueCarousel-dot {
+    background-color: $c-pink!important;
+    margin-top: 0!important;
+  }
+
+  .VueCarousel-dot[aria-selected="true"] {
+    background-color: $c-purple!important;
+  }
+
+  .VueCarousel-dot:focus {
+    outline: 1px solid $c-blush!important;
+  }
+}
+
+
+
+
+.review--inner {
+  border-left: 4px solid $c-pink;
+  padding-left: 12px;
+}
+
+.review--author {
+  color: darken($c-blue, 20%);
+  font-family: "Boother";
+  font-size: 30px;
+  line-height: 30px;
+  margin-top: 4px;
+}
+
+.review--score {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.star__icon {
+  fill: $c-purple;
+  height: 25px;
+  margin: 0 4px;
+  width: 25px;
+}
+
+.quote-container {
+  display: inline-block;
+  position: relative;
+  width: 12px;
+}
+
+.quote {
+  color: $c-blue;
+  font-size: 36px;
+  left: 0;
+  line-height: 12px;
+  position: absolute;
+  top: -12px;
+}
+
 
 /**
  *
