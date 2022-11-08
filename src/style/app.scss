@@ -354,25 +354,22 @@ table {
   width: 100%;
 }
 
-.VueCarousel-pagination .VueCarousel-dot-container {
-  margin-top: 0!important;
 
-  .VueCarousel-dot {
-    background-color: $c-pink!important;
-    margin-top: 0!important;
+.ssr-carousel-dot-button {
+  .ssr-carousel-dot-icon {
+    background-color: $c-pink;
+    border: none;
+    border-radius: 8px;
+    height: 16px;
+    width: 16px;
   }
 
-  .VueCarousel-dot[aria-selected="true"] {
-    background-color: $c-purple!important;
-  }
-
-  .VueCarousel-dot:focus {
-    outline: 1px solid $c-blush!important;
+  &[disabled="disabled"] {
+    .ssr-carousel-dot-icon {
+      background-color: $c-purple;
+    }
   }
 }
-
-
-
 
 .review--inner {
   border-left: 4px solid $c-pink;

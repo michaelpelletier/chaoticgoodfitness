@@ -22,16 +22,16 @@
         <g-image alt="A photo of Keira" src="~/assets/images/keira1.jpg" />
       </div>
 
-      <ClientOnly>
-        <carousel
+        <ssr-carousel
           class="reviews"
-          :perPage="1"
+          :slides-per-page="1"
           :loop="true"
           :autoplay="true"
-          :autoplayTimeout="5000"
+          :autoplay-delay="5000"
+          :show-dots="true"
         >
-          <slide
-            class="review"
+          <div
+            class="slide review"
             v-for="review in reviews"
             :key="review.id"
           >
@@ -62,16 +62,16 @@
             <div class="review--author">
               - {{review.by}}
             </div>
-          </slide>
-        </carousel>
-      </ClientOnly>
+          </div>
+        </ssr-carousel>
 
     </div>
   </Layout>
 </template>
 
 <script>
-// import { Carousel, Slide } from 'vue-carousel';
+import SsrCarousel from 'vue-ssr-carousel';
+import 'vue-ssr-carousel/index.css';
 
 export default {
   metaInfo: {
@@ -79,10 +79,7 @@ export default {
   },
 
   components: {
-    Carousel: () =>
-      import ('vue-carousel').then(m => m.Carousel).catch(),
-    Slide: () =>
-      import ('vue-carousel').then(m => m.Slide).catch(),
+    'ssr-carousel': SsrCarousel,
   },
 
   data() {
