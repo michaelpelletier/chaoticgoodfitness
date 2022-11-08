@@ -22,12 +22,6 @@
         <g-image alt="A photo of Keira" src="~/assets/images/keira1.jpg" />
       </div>
 
-
-
-
-
-
-
       <carousel
         class="reviews"
         :perPage="1"
@@ -75,16 +69,16 @@
 </template>
 
 <script>
-import { Carousel, Slide } from 'vue-carousel';
-
 export default {
   metaInfo: {
     title: 'Tell Your Own Story'
   },
 
   components: {
-    Carousel,
-    Slide,
+    Carousel: () =>
+      import ('vue-carousel').then(m => m.Carousel).catch(),
+    Slide: () =>
+      import ('vue-carousel').then(m => m.Slide).catch()
   },
 
   data() {
