@@ -4,14 +4,14 @@
 
     <h2>Virtual Programs</h2>
 
-    <p>Each program is customized for you based on our consultation call. We'll work together through Everfit to make the changes you want to see in yourself through a movement program, nutrition habits, and lifestyle changes. These programs are all encompassing to best set you up for success in meeting your goals.</p>
-
-    <p>This is better when you need more accountability coaching for a lower price point.</p>
-
     <h3>Program Builder ($150 one-time fee)</h3>
     <p>I create a personalized workout program for you with 6-8 workouts and a reference sheet. We do a one time Strategy video chat to talk about what it is, make any necessary adjustments, and answer any questions you have. You are always welcome to ask questions afterwards.</p>
 
-    <h3>Virtual Training Sessions</h3>
+    <h3>Virtual Training</h3>
+
+    <p>Each program is customized for you based on our consultation call. We'll work together through Everfit to make the changes you want to see in yourself through a movement program, nutrition habits, and lifestyle changes. These programs are all encompassing to best set you up for success in meeting your goals.</p>
+
+    <p>This is better when you need more accountability coaching for a lower price point.</p>
 
     <table>
       <thead>

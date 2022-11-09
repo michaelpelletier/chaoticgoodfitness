@@ -6,6 +6,8 @@
 
     <p>In Dungeons and Dragons, Chaotic Good is a character alignment that reflects one whose heart is pure, but who does not take the law at face value. They question authority and forge their own path based on their own value system and morals. They value freedom and individuality over social norms and rules.</p>
 
+    <p>Examples of Chaotic Good characters include Robin Hood, Han Solo, Mary Poppins, Toph Beifong, Zorro, Mulan, the Teenage Mutant Ninja Turtles, Indiana Jones, and The Doctor.</p>
+
     <p>CG Fitness views fitness and health in the same way. We are client-centered and body positive. We focus on the individual client’s needs and goals without trying to fit them into the standards set up by the fitness industry. Each client has a unique background, goal, and body that deserves to be valued and considered when working together. We don’t expect all of our clients to look, act, feel, or need the same thing, so we don’t use a pre-packaged, uniform program.</p>
 
     <div class="about-photos">

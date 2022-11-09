@@ -3,7 +3,7 @@
     <h1>Welcome</h1>
 
     <div class="homepage">
-      <p>LGBTQ+ Affirming, Empathetic, Knowledgeable Personal Trainer + Nutrition Coach</p>
+      <p>Empathetic, Knowledgeable Personal Trainer + Nutrition Coach, LGBTQ+ Affirming</p>
 
       <div class="homepage--section">
         <div class="mtg-placeholder">
