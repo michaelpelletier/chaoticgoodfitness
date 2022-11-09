@@ -1,13 +1,17 @@
 <template>
   <Layout class="programs">
-    <h1>Programs</h1>
+    <h1>Services</h1>
 
     <h2>Virtual Programs</h2>
+
+    <p>Each program is customized for you based on our consultation call. We'll work together through Everfit to make the changes you want to see in yourself through a movement program, nutrition habits, and lifestyle changes. These programs are all encompassing to best set you up for success in meeting your goals.</p>
+
+    <p>This is better when you need more accountability coaching for a lower price point.</p>
 
     <h3>Program Builder ($150 one-time fee)</h3>
     <p>I create a personalized workout program for you with 6-8 workouts and a reference sheet. We do a one time Strategy video chat to talk about what it is, make any necessary adjustments, and answer any questions you have. You are always welcome to ask questions afterwards.</p>
 
-    <h3>Training Sessions</h3>
+    <h3>Virtual Training Sessions</h3>
 
     <table>
       <thead>
@@ -117,6 +121,9 @@
 
     <h2>In-Person Programs</h2>
 
+    <p>For in person programs, either you come to my gym or I go to your home and we work together face to face on a movement program to help you meet your fitness goals. I'll be there every step of the way to ensure you're doing everything properly and effectively.</p>
+
+    <p>This is better if you are local, looking for more nuanced exercise help, and don't need the nutrition or habit coaching as much.</p>
 
     <table>
       <thead>

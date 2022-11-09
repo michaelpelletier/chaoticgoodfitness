@@ -36,12 +36,12 @@
       </a>
 
       <a
-        href="https://www.trainerize.me/profile/chaoticgoodfitness"
-        title="Connect with us on Trainerize"
+        href="https://invite.everfit.io/27MTCETKKD"
+        title="Connect with us on Everfit"
         target="_blank"
       >
-        <svg title="Trainerize logo" class="social__icon">
-          <use xlink:href="#social-fitness"></use>
+        <svg title="Everfit logo" class="social__icon">
+          <use xlink:href="#social-everfit"></use>
         </svg>
       </a>
     </div>

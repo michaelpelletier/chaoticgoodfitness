@@ -74,6 +74,11 @@ h3 {
   min-height: 130px;
   width: 100%;
 
+  .logo-link {
+    height: 120px;
+    width: 120px;
+  }
+
   .logo-section {
     align-items: center;
     display: flex;
@@ -88,7 +93,6 @@ h3 {
     align-content: center;
     display: flex;
     flex-wrap: wrap;
-    width: 250px;
   }
 
   h1.title {
@@ -176,27 +180,22 @@ footer {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+  }
 
-    img {
-      flex-grow: 1;
-      flex-shrink: 1;
-      align-self: center;
-      width: 50%;
-      height: auto;
-      margin-left: 24px;
-      flex-basis: 50%;
+  .homepage--section-second {
+    .premise {
+      margin-right: 12px;
+      width: 388px;
     }
-
   }
 
   .homepage--photo {
-    margin: 24px auto;
     text-align: center;
+    min-width: 300px;
+    width: calc(100% - 400px);
 
     img {
-      max-width: 400px;
-      min-width: 300px;
-      width: 50%;
+      width: 100%;
     }
   }
 
@@ -218,10 +217,6 @@ footer {
 
   .premise {
     width: calc(100% - 400px - 12px);
-
-    img {
-      width: 100%;
-    }
   }
 }
 
@@ -232,12 +227,13 @@ footer {
 **/
 
 table {
-  border: 1px solid $c-pink;
+  border: 1px solid darken($c-pink, 10%);
   border-spacing: 0;
   width: 100%;
 
-  thead {
+  thead tr:last-of-type td {
     background: $c-blush;
+    border-bottom: 1px solid darken($c-pink, 10%);
   }
 
   tr td:first-child {
@@ -245,33 +241,35 @@ table {
     width: 40%;
   }
 
+  tr:last-of-type td {
+    border-bottom: 0;
+  }
+
   td {
-    border-bottom: 1px solid $c-pink;
+    background: lighten($c-purple, 47%);
+    border-bottom: 1px solid darken($c-pink, 10%);
     min-width: 85px;
     padding: 4px;
     text-align: center;
   }
 
   td span {
-    color: lighten($c-black, 30%);
+    color: lighten($c-black, 25%);
     display: block;
     font-size: 11px;
     line-height: 14px;
     text-transform: uppercase;
   }
 
-  tr.label {
-    background: lighten($c-black, 75%);
-
-    td {
-      border-bottom: 1px dashed lighten($c-black, 25%);
-    }
+  tr.label td {
+    background: lighten($c-purple, 40%);
+    border-bottom: 1px dashed lighten($c-purple, 25%);
   }
 
   tfoot {
-    background: lighten($c-black, 75%);
-
     td {
+      background: lighten($c-purple, 40%);
+      border-top: 1px solid darken($c-pink, 10%);
       border-bottom: 0;
       font-weight: bold;
     }
@@ -351,9 +349,9 @@ table {
 
 
 .reviews {
+  margin-top: 24px;
   width: 100%;
 }
-
 
 .ssr-carousel-dot-button {
   .ssr-carousel-dot-icon {
@@ -488,13 +486,20 @@ table {
 
   }
 
-  .homepage {
+  .homepage .homepage--section {
     .mtg-placeholder {
       margin: 0 auto;
     }
 
     .premise {
+      margin: 0;
       width: 100%;
+    }
+
+    .homepage--photo {
+      margin: 0 auto;
+      max-width: 300px;
+      min-width: 300px;
     }
   }
 }

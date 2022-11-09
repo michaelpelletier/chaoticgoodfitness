@@ -8,6 +8,8 @@
 
     <icons />
 
+    <ReviewCarousel />
+
     <CGFooter />
   </div>
 </template>
@@ -16,6 +18,7 @@
 import icons from '@/components/icons';
 import CGHeader from '@/components/CGHeader.vue';
 import CGFooter from '@/components/CGFooter.vue';
+import ReviewCarousel from '@/components/ReviewCarousel.vue';
 
 import '@/style/app.scss';
 
@@ -24,6 +27,7 @@ export default {
     icons,
     CGHeader,
     CGFooter,
+    ReviewCarousel,
   },
 };
 </script>
