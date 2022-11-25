@@ -185,8 +185,8 @@ footer {
 
   .homepage--section-second {
     .premise {
-      margin-right: 12px;
-      width: 388px;
+      margin-right: 24px;
+      width: calc(400px - 24px);
     }
   }
 
@@ -209,7 +209,7 @@ footer {
     font-size: 12px;
     font-weight: bold;
     justify-content: center;
-    margin-right: 12px;
+    margin-right: 24px;
     text-transform: uppercase;
     width: 400px;
 
@@ -219,7 +219,7 @@ footer {
   }
 
   .premise {
-    width: calc(100% - 400px - 12px);
+    width: calc(100% - 400px - 24px);
   }
 }
 
