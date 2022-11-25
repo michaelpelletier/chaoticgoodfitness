@@ -1,6 +1,7 @@
 $c-black: #373535;
 $c-purple: #785A9D;
 $c-blue: #97D0DF;
+$c-teal: #cbe9f1;
 $c-pink: #FECEE9;
 $c-blush: #F8E5EE;
 $c-white: #FFFFFF;
@@ -119,7 +120,7 @@ h3 {
 
     &:hover,
     &.active--exact {
-      color: $c-black;
+      color: darken($c-teal, 20%);
     }
   }
 
@@ -199,25 +200,43 @@ footer {
     }
   }
 
-  .mtg-placeholder {
+  .mtg-container {
     align-items: center;
-    background: $c-blush;
     display: flex;
     flex-basis: 400px;
     flex-grow: 0;
     flex-shrink: 0;
     font-size: 12px;
     font-weight: bold;
-    height: 600px;
     justify-content: center;
     margin-right: 12px;
     text-transform: uppercase;
     width: 400px;
+
+    img {
+      width: 100%;
+    }
   }
 
   .premise {
     width: calc(100% - 400px - 12px);
   }
+}
+
+/**
+ *
+ * ABOUT PAGE
+ *
+**/
+
+.aside {
+  border-left: 4px solid $c-pink;
+  float: right;
+  font-style: italic;
+  margin-left: 16px;
+  margin-bottom: 8px;
+  padding-left: 8px;
+  width: 275px;
 }
 
 /**
@@ -232,7 +251,7 @@ table {
   width: 100%;
 
   thead tr:last-of-type td {
-    background: $c-blush;
+    background: darken($c-blush, 5%);
     border-bottom: 1px solid darken($c-pink, 10%);
   }
 
@@ -246,7 +265,7 @@ table {
   }
 
   td {
-    background: #fbf8ff;
+    background: $c-teal;
     border-bottom: 1px solid darken($c-pink, 10%);
     min-width: 85px;
     padding: 4px;
