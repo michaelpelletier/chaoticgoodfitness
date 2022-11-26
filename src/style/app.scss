@@ -116,6 +116,10 @@ p {
     margin-left: 20px;
     text-decoration: none;
 
+    &:first-of-type {
+      margin-left: 0;
+    }
+
     &:visited,
     &:active {
       color: $c-purple;
@@ -269,7 +273,11 @@ footer {
     border-top-right-radius: 20px;
     cursor: pointer;
     margin-right: 8px;
-    padding: 0 24px;
+    padding: 24px;
+
+    h2 {
+      margin: 0;
+    }
   }
 
   .tab-header--active {
