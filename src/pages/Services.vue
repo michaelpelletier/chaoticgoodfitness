@@ -25,9 +25,11 @@
 
       <h3>Virtual Training</h3>
 
-      <p>Each program is customized for you based on our consultation call. We'll work together through Trainerize to make the changes you want to see in yourself through a movement program, nutrition habits, and lifestyle changes. These programs are all encompassing to best set you up for success in meeting your goals.</p>
+      <div class="aside">
+        This is better when you need more accountability coaching for a lower price point.
+      </div>
 
-      <p>This is better when you need more accountability coaching for a lower price point.</p>
+      <p>Each program is customized for you based on our consultation call. We'll work together through Trainerize to make the changes you want to see in yourself through a movement program, nutrition habits, and lifestyle changes. These programs are all encompassing to best set you up for success in meeting your goals.</p>
 
       <table>
         <thead>
@@ -132,9 +134,14 @@
     </div>
 
     <div class="tab-page" v-if="activeTab === 'local'">
+      <h3>Local Training</h3>
+
+      <div class="aside">
+        This is better if you are local, looking for more nuanced exercise help, and don't need the nutrition or habit coaching as much.
+      </div>
+
       <p>For in person programs, either you come to my gym or I go to your home and we work together face to face on a movement program to help you meet your fitness goals. I'll be there every step of the way to ensure you're doing everything properly and effectively.</p>
 
-      <p>This is better if you are local, looking for more nuanced exercise help, and don't need the nutrition or habit coaching as much.</p>
 
       <table>
         <thead>

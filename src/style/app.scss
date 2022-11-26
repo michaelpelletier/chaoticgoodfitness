@@ -230,13 +230,7 @@ footer {
   }
 
   .homepage--section:first-of-type {
-    h2:first-of-type {
-      margin-top: 0;
-    }
-
-    p:last-of-type {
-      margin-bottom: 0;
-    }
+    margin-bottom: 24px;
   }
 }
 
@@ -295,13 +289,13 @@ footer {
 }
 
 table {
-  border: 4px solid darken($c-pink, 10%);
+  border: 2px solid darken($c-pink, 10%);
   border-spacing: 0;
   width: 100%;
 
   thead tr:last-of-type td {
     background: darken($c-blush, 5%);
-    border-bottom: 4px solid darken($c-pink, 10%);
+    border-bottom: 2px solid darken($c-pink, 10%);
   }
 
   tr td:first-child {
@@ -315,7 +309,7 @@ table {
 
   td {
     background: white;
-    border-bottom: 4px solid darken($c-pink, 10%);
+    border-bottom: 2px solid darken($c-pink, 10%);
     min-width: 85px;
     padding: 4px;
     text-align: center;
@@ -335,13 +329,13 @@ table {
 
   tr.label td {
     background: lighten($c-purple, 40%);
-    border-bottom: 4px dashed lighten($c-purple, 25%);
+    border-bottom: 2px dashed lighten($c-purple, 25%);
   }
 
   tfoot tr {
     td {
       background: lighten($c-purple, 40%);
-      border-top: 4px solid darken($c-pink, 10%);
+      border-top: 2px solid darken($c-pink, 10%);
       border-bottom: 0;
       font-weight: bold;
     }
