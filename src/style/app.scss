@@ -76,7 +76,7 @@ p {
   justify-content: space-between;
   margin-bottom: 24px;
   min-height: 130px;
-  width: 100%;
+  // width: 100%;
 
   .logo-link {
     height: 120px;
@@ -87,6 +87,7 @@ p {
     align-items: center;
     display: flex;
     text-decoration: none;
+    width: 100%;
 
     a {
       text-decoration: none;
@@ -94,14 +95,20 @@ p {
   }
 
   .logo-text {
-    align-content: center;
+    flex-grow: 1;
+  }
+
+  .subtitle-section {
+    // align-content: center;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
   }
 
   h1.title {
     font-size: 48px;
     line-height: 32px;
+    margin: 0;
   }
 
   h2.subtitle {
@@ -128,16 +135,6 @@ p {
     &:hover,
     &.active--exact {
       color: darken($c-blue, 20%);
-    }
-  }
-
-  .nav--mobile {
-    display: none;
-    margin-top: auto;
-
-    .nav__link {
-      margin-left: 0;
-      margin-right: 20px;
     }
   }
 }
@@ -230,7 +227,13 @@ footer {
   }
 
   .homepage--section:first-of-type {
-    margin-bottom: 24px;
+    h2:first-of-type {
+      margin-top: 0;
+    }
+
+    p:last-of-type {
+      margin-bottom: 0;
+    }
   }
 }
 
@@ -491,6 +494,26 @@ table {
  *
 **/
 
+@media screen and (max-width: 800px) {
+  .homepage .homepage--section {
+    .mtg-container {
+      margin: 0 auto 32px auto;
+    }
+
+    .premise {
+      margin: 0;
+      width: 100%;
+    }
+
+    .homepage--photo {
+      margin: 0 auto;
+      max-width: 300px;
+      min-width: 300px;
+    }
+  }
+}
+
+
 @media screen and (max-width: 630px) {
   .layout {
     .header {
@@ -507,8 +530,15 @@ table {
       display: block;
     }
 
+    .subtitle-section {
+      height: calc(100% - 36px);
+    }
+
     nav {
-      display: none;
+      flex-shrink: 0;
+      margin-top: auto;
+      text-align: right;
+      width: 100%;
     }
 
     .logo-section {
@@ -558,22 +588,5 @@ table {
       }
     }
 
-  }
-
-  .homepage .homepage--section {
-    .mtg-placeholder {
-      margin: 0 auto;
-    }
-
-    .premise {
-      margin: 0;
-      width: 100%;
-    }
-
-    .homepage--photo {
-      margin: 0 auto;
-      max-width: 300px;
-      min-width: 300px;
-    }
   }
 }

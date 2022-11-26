@@ -29,7 +29,9 @@
         This is better when you need more accountability coaching for a lower price point.
       </div>
 
-      <p>Each program is customized for you based on our consultation call. We'll work together through Trainerize to make the changes you want to see in yourself through a movement program, nutrition habits, and lifestyle changes. These programs are all encompassing to best set you up for success in meeting your goals.</p>
+      <p>Each program is customized for you based on our consultation call. We'll work together through Trainerize to make the changes you want to see in yourself through a movement program, nutrition habits, and lifestyle changes.</p>
+
+      <p>These programs are all encompassing to best set you up for success in meeting your goals.</p>
 
       <table>
         <thead>
