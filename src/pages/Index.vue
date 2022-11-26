@@ -11,7 +11,7 @@
         </div>
 
         <div class="premise">
-          <h2>Mission Statement</h2>
+          <h2>What We Do</h2>
 
           <p>Chaotic Good Fitness empowers people to improve themselves through movement and habit changes. We rebel against the fitness industry standards in order to help people change the way they think about their own bodies and health and change their bodies for themselves.</p>
 
