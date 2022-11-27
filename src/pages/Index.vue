@@ -41,12 +41,14 @@
 </template>
 
 <script>
+import seoKeywords from '../components/seokeywords';
+
 export default {
   metaInfo () {
     return this.$seo({
       title: 'Tell Your Own Story',
       description: 'Chaotic Good Fitness offers client-focused, body positive personal training programs both virutally and in-person.',
-      keywords: 'fitness, training, trainer, personal trainer, workout, work out, nutrition, coaching, atlanta',
+      keywords: seoKeywords.join(', '),
       openGraph: {
         title: 'Chaotic Good Fitness',
         type: 'website',
