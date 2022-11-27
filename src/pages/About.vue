@@ -12,13 +12,13 @@
 
     <div class="about-photos">
       <div class="about-photo">
-        <g-image alt="A photo of Keira working out" src="~/assets/images/keira2.jpg" />
+        <g-image alt="A photo of Keira stretching" src="~/assets/images/keira2.jpg" />
       </div>
       <div class="about-photo">
-        <g-image alt="A photo of Keira working out" src="~/assets/images/keira3.jpg" />
+        <g-image alt="A photo of Keira working out their lower body" src="~/assets/images/keira3.jpg" />
       </div>
       <div class="about-photo">
-        <g-image alt="A photo of Keira working out" src="~/assets/images/keira4.jpg" />
+        <g-image alt="A photo of Keira working out their upper body" src="~/assets/images/keira4.jpg" />
       </div>
     </div>
 
@@ -33,8 +33,22 @@
 
 <script>
 export default {
-  metaInfo: {
-    title: 'About'
-  }
+  metaInfo () {
+    return this.$seo({
+      title: 'About',
+      description: 'Chaotic Good Fitness offers client-focused, body positive personal training programs both virutally and in-person.',
+      keywords: 'fitness, training, trainer, personal trainer, workout, work out, nutrition, coaching, atlanta',
+      openGraph: {
+        title: 'Chaotic Good Fitness',
+        type: 'website',
+      },
+      link: [
+        {
+          rel: 'canonical',
+          content: 'https://chaoticgoodfitness.com/about/'
+        }
+      ]
+    });
+  },
 }
 </script>

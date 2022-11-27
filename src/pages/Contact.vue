@@ -8,3 +8,25 @@
     <p><b>Location:</b> Atlanta, GA</p>
   </Layout>
 </template>
+
+<script>
+export default {
+  metaInfo () {
+    return this.$seo({
+      title: 'Contact',
+      description: 'Chaotic Good Fitness offers client-focused, body positive personal training programs both virutally and in-person.',
+      keywords: 'fitness, training, trainer, personal trainer, workout, work out, nutrition, coaching, atlanta',
+      openGraph: {
+        title: 'Chaotic Good Fitness',
+        type: 'website',
+      },
+      link: [
+        {
+          rel: 'canonical',
+          content: 'https://chaoticgoodfitness.com/contact/'
+        }
+      ]
+    });
+  },
+}
+</script>

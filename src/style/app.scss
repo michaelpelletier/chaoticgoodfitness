@@ -1,6 +1,9 @@
 $c-black: #373535;
 $c-purple: #785A9D;
 $c-blue: #97D0DF;
+
+$c-blue-dark: darken($c-blue, 35%);
+
 $c-pink: #FECEE9;
 $c-blush: #F8E5EE;
 $c-white: #FFFFFF;
@@ -54,7 +57,7 @@ h2 {
 }
 
 h3 {
-  color: darken($c-blue, 20%);
+  color: $c-blue-dark;
   font-size: 20px;
   line-height: 20px;
 }
@@ -76,7 +79,6 @@ p {
   justify-content: space-between;
   margin-bottom: 24px;
   min-height: 130px;
-  // width: 100%;
 
   .logo-link {
     height: 120px;
@@ -99,7 +101,6 @@ p {
   }
 
   .subtitle-section {
-    // align-content: center;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -134,7 +135,7 @@ p {
 
     &:hover,
     &.active--exact {
-      color: darken($c-blue, 20%);
+      color: $c-blue-dark;
     }
   }
 }
@@ -153,7 +154,7 @@ footer {
   margin: 48px 0 24px 0;
 
   .footer-text {
-    color: darken($c-blue, 20%);
+    color: $c-blue-dark;
     font-family: 'Boother';
     font-size: 36px;
     line-height: 36px;
@@ -225,16 +226,6 @@ footer {
   .premise {
     width: calc(100% - 400px - 32px);
   }
-
-  .homepage--section:first-of-type {
-    h2:first-of-type {
-      margin-top: 0;
-    }
-
-    p:last-of-type {
-      margin-bottom: 0;
-    }
-  }
 }
 
 /**
@@ -265,7 +256,7 @@ footer {
 
   .tab-header {
     background: lighten($c-blue, 20%);
-    border: 2px solid darken($c-blue, 20%);
+    border: 2px solid $c-blue-dark;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     cursor: pointer;
@@ -284,7 +275,7 @@ footer {
 }
 
 .tab-page {
-  border: 2px solid darken($c-blue, 20%);
+  border: 2px solid $c-blue-dark;
   border-top-right-radius: 20px;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
@@ -323,7 +314,7 @@ table {
   }
 
   td span {
-    color: lighten($c-black, 25%);
+    color: lighten($c-black, 15%);
     display: block;
     font-size: 11px;
     line-height: 14px;
@@ -451,7 +442,7 @@ table {
 }
 
 .review--author {
-  color: darken($c-blue, 20%);
+  color: $c-blue-dark;
   font-family: "Boother";
   font-size: 30px;
   line-height: 30px;
@@ -479,7 +470,7 @@ table {
 }
 
 .quote {
-  color: $c-blue;
+  color: $c-blue-dark;
   font-size: 36px;
   left: 0;
   line-height: 12px;

@@ -2,7 +2,7 @@
   <header class="header">
     <div class="logo-section">
       <g-link to="/" class="logo-link">
-        <g-image alt="Logo" src="~/assets/square.png" width="120" />
+        <g-image alt="Chaotic Good Fitness Logo" src="~/assets/square.png" width="120" />
       </g-link>
       <div class="logo-text">
         <g-link to="/">

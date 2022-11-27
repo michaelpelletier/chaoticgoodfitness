@@ -7,7 +7,9 @@
     "explore": "gridsome explore"
   },
   "dependencies": {
+    "@gridsome/plugin-sitemap": "^0.4.0",
     "gridsome": "^0.7.0",
+    "gridsome-plugin-seo": "^1.0.2",
     "vue-ssr-carousel": "^1.9.0"
   },
   "devDependencies": {

@@ -3,7 +3,7 @@
     <h1>Welcome</h1>
 
     <div class="homepage">
-      <p>Empathetic, Knowledgeable Personal Trainer + Nutrition Coach, LGBTQ+ Affirming</p>
+      <p>Empathetic, Knowledgeable Personal Trainer + Nutrition Coach</p>
 
       <div class="homepage--section">
         <div class="mtg-container">
@@ -13,7 +13,7 @@
         <div class="premise">
           <h2>What We Do</h2>
 
-          <p>Chaotic Good Fitness empowers people to improve themselves through movement and habit changes. We rebel against the fitness industry standards in order to help people change the way they think about their own bodies and health and change their bodies for themselves.</p>
+          <p>Chaotic Good Fitness empowers people to improve themselves through movement and habit changes. We help clients feel confident in their own bodies and set them up for success in their health and aesthetic goals.</p>
 
           <h2>Our Story</h2>
 
@@ -27,7 +27,7 @@
 
           <p><b>Certifications:</b> ACSM, Girls Gone Strong, Silver Sneakers, and Precision Nutrition certified</p>
 
-          <p><b>Client Specializations:</b> Beginners, Clients with ADHD, and LGBTQ+ (but I work with lots of other people too!)</p>
+          <p><b>Client Specializations:</b> Beginners, Clients with ADHD, LGBTQ+ and Gender Affirming Training (but I work with lots of other people too!)</p>
 
           <p><b>Medical Condition Experience:</b> ADHD, Depression, Anxiety, Joint Pain, Chronic Pain, Autoimmune conditions</p>
         </div>
@@ -42,8 +42,22 @@
 
 <script>
 export default {
-  metaInfo: {
-    title: 'Tell Your Own Story'
+  metaInfo () {
+    return this.$seo({
+      title: 'Tell Your Own Story',
+      description: 'Chaotic Good Fitness offers client-focused, body positive personal training programs both virutally and in-person.',
+      keywords: 'fitness, training, trainer, personal trainer, workout, work out, nutrition, coaching, atlanta',
+      openGraph: {
+        title: 'Chaotic Good Fitness',
+        type: 'website',
+      },
+      link: [
+        {
+          rel: 'canonical',
+          content: 'https://chaoticgoodfitness.com'
+        }
+      ]
+    });
   },
 };
 </script>
