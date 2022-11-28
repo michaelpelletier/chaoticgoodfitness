@@ -30,5 +30,14 @@ export default {
       ]
     });
   },
+
+  created() {
+    const meta = this.$metaInfo;
+    gtag('event', 'page_view', {
+      page_title: meta.title,
+      page_path: this.$route.fullPath,
+      send_to: '4571EDCTDB'
+    });
+  },
 }
 </script>
