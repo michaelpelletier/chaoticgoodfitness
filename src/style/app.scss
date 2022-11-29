@@ -20,6 +20,10 @@ $c-white: #FFFFFF;
   font-weight: normal;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   color: $c-black;
   font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
@@ -81,8 +85,13 @@ p {
   min-height: 130px;
 
   .logo-link {
+    flex-shrink: 0;
     height: 120px;
     width: 120px;
+
+    img {
+      width: 100%;
+    }
   }
 
   .logo-section {
@@ -507,10 +516,20 @@ table {
 
 @media screen and (max-width: 630px) {
   .layout {
+    max-width: 100%;
+    padding-left: 12px;
+    padding-right: 12px;
+    width: 100%;
+
     .header {
       background: $c-white;
       position: fixed;
       z-index: 10;
+
+      .logo-link {
+        height: 100px;
+        width: 100px;
+      }
     }
 
     .header + .content {
@@ -522,14 +541,22 @@ table {
     }
 
     .subtitle-section {
-      height: calc(100% - 36px);
+      height: calc(100% - 64px);
+
+      a {
+        align-self: flex-start;
+      }
     }
 
     nav {
       flex-shrink: 0;
       margin-top: auto;
-      text-align: right;
+      text-align: left;
       width: 100%;
+
+      .nav__link {
+        margin-left: 12px;
+      }
     }
 
     .logo-section {
@@ -540,7 +567,7 @@ table {
       flex-direction: column;
 
       h1.title {
-        font-size: 44px;
+        font-size: 42px;
         line-height: 30px;
         margin-bottom: 4px;
       }
@@ -559,6 +586,12 @@ table {
       font-size: 30px;
       line-height: 30px;
       margin-bottom: 8px;
+    }
+
+    .homepage .mtg-container {
+      flex-basis: 100%;
+      flex-grow: 0;
+      width: 100%;
     }
   }
 
@@ -579,5 +612,27 @@ table {
       }
     }
 
+  }
+
+  .aside {
+    width: 60%;
+  }
+
+  .about-photos .about-photo {
+    flex-basis: calc(33% - 16px);
+    margin: 0 8px;
+  }
+
+  .tab-controls .tab-header {
+    padding: 12px;
+    text-align: center;
+
+    h2 {
+      font-size: 20px;
+    }
+  }
+
+  .tab-page {
+    padding: 12px;
   }
 }
