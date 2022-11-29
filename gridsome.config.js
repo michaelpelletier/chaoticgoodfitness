@@ -17,5 +17,13 @@ module.exports = {
     {
       use: 'gridsome-plugin-seo',
     },
+    {
+      use: 'gridsome-plugin-gtm',
+      options: {
+        id: 'G-4571EDCTDB',
+        enabled: true,
+        debug: true
+      }
+    },
   ],
 }
