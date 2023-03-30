@@ -349,6 +349,24 @@ table {
   }
 }
 
+.services-banner {
+  background: $c-blush;
+  border-left: 4px solid $c-pink;
+  border-right: 4px solid $c-pink;
+  padding: 24px;
+
+  a {
+    color: $c-purple;
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+}
+
+
 .add-on-section {
   display: flex;
   flex-wrap: wrap;
