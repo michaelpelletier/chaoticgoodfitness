@@ -114,8 +114,8 @@
         <tfoot>
           <tr>
             <td>Cost<span>Per Month</span></td>
-            <td>$100</td>
-            <td>$135</td>
+            <td>$125</td>
+            <td>$150</td>
             <td>$270</td>
           </tr>
         </tfoot>
@@ -125,9 +125,9 @@
         <div class="add-on-section--left">
           <h3>Add-Ons</h3>
           <ul>
-            <li>Extra Strategy Session - $35</li>
-            <li>30 minute Video Workout - $25</li>
-            <li>60 minute Video Workout - $45</li>
+            <li>Extra Strategy Session - $40</li>
+            <li>30 minute Video Workout - $30</li>
+            <li>60 minute Video Workout - $50</li>
           </ul>
         </div>
         <div class="add-on-section--right">
@@ -162,60 +162,60 @@
           </tr>
           <tr>
             <td>Single Session</td>
-            <td>$35</td>
-            <td>$50</td>
-            <td>$65</td>
+            <td>$40</td>
+            <td>$55</td>
+            <td>$70</td>
           </tr>
           <tr>
             <td>3 Session Pack</td>
-            <td>$100</td>
-            <td>$140</td>
-            <td>$185</td>
+            <td>$110</td>
+            <td>$155</td>
+            <td>$200</td>
           </tr>
           <tr>
             <td>6 Session Pack</td>
-            <td>$175</td>
-            <td>$250</td>
-            <td>$325</td>
+            <td>$200</td>
+            <td>$275</td>
+            <td>$350</td>
           </tr>
           <tr>
             <td>12 Session Pack</td>
-            <td>$350</td>
-            <td>$500</td>
-            <td>$650</td>
+            <td>$400</td>
+            <td>$550</td>
+            <td>$700</td>
           </tr>
           <tr class="label">
             <td colspan="4">Small Group Packages (prices are per person)</td>
           </tr>
           <tr>
             <td>Single Session</td>
-            <td>$25</td>
-            <td>$40</td>
-            <td>$55</td>
+            <td>$30</td>
+            <td>$45</td>
+            <td>$60</td>
           </tr>
           <tr>
             <td>3 Session Pack</td>
-            <td>$65</td>
-            <td>$110</td>
-            <td>$150</td>
+            <td>$80</td>
+            <td>$124</td>
+            <td>$170</td>
           </tr>
           <tr>
             <td>6 Session Pack</td>
-            <td>$125</td>
-            <td>$200</td>
-            <td>$275</td>
+            <td>$150</td>
+            <td>$225</td>
+            <td>$300</td>
           </tr>
           <tr>
             <td>12 Session Pack</td>
-            <td>$250</td>
-            <td>$400</td>
-            <td>$550</td>
+            <td>$300</td>
+            <td>$450</td>
+            <td>$600</td>
           </tr>
         </tbody>
       </table>
 
       <div class="addon">
-        Want some nutrition coaching, too? We can add on a hybrid feature giving you access to the nutrition coaching, app, and groups of the virtual coaching for $50 each month.
+        Want some nutrition coaching, too? We can add on a hybrid feature giving you access to the nutrition coaching, app, and groups of the virtual coaching for $65 each month.
       </div>
 
     </div>
