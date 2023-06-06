@@ -190,6 +190,12 @@ footer {
   }
 }
 
+/**
+ *
+ * HOMEPAGE
+ *
+**/
+
 .homepage {
   .homepage--section {
     display: flex;
@@ -251,6 +257,21 @@ footer {
   margin-bottom: 16px;
   padding-left: 16px;
   width: 275px;
+}
+
+.about-photos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  .about-photo {
+    flex-basis: calc(33% - 32px);
+    margin: 0 16px;
+  }
+
+  img {
+    width: 100%;
+  }
 }
 
 /**
@@ -366,7 +387,6 @@ table {
   }
 }
 
-
 .add-on-section {
   display: flex;
   flex-wrap: wrap;
@@ -426,21 +446,11 @@ table {
   text-align: center;
 }
 
-.about-photos {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-
-  .about-photo {
-    flex-basis: calc(33% - 32px);
-    margin: 0 16px;
-  }
-
-  img {
-    width: 100%;
-  }
-}
-
+/**
+ *
+ * REVIEWS
+ *
+**/
 
 .reviews {
   margin-top: 32px;
@@ -505,7 +515,6 @@ table {
   top: -12px;
 }
 
-
 /**
  *
  * MOBILE
@@ -530,7 +539,6 @@ table {
     }
   }
 }
-
 
 @media screen and (max-width: 630px) {
   .layout {

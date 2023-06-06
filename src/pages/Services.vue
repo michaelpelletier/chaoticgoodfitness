@@ -223,18 +223,15 @@
 </template>
 
 <script>
-import seoKeywords from '../components/seokeywords';
+import seo from '../data/seo';
 
 export default {
   metaInfo () {
     return this.$seo({
       title: 'Services',
-      description: 'Chaotic Good Fitness offers client-focused, body positive personal training programs both virutally and in-person.',
-      keywords: seoKeywords.join(', '),
-      openGraph: {
-        title: 'Chaotic Good Fitness',
-        type: 'website',
-      },
+      description: seo.description,
+      keywords: seo.keywords.join(', '),
+      openGraph: seo.openGraph,
       link: [
         {
           rel: 'canonical',
