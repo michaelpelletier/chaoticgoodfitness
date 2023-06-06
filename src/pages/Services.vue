@@ -2,7 +2,7 @@
   <Layout class="programs">
     <h1>Services</h1>
 
-    <p class="services-banner">I am currently not taking on any new in person clients. If you'd like to work with me, you can either try virtual (It's not that scary, I promise!) or <a href="https://forms.gle/RjZhmBe5bCBwc9b19" target="_blank">join my waitlist</a>.</p>
+    <p class="services-banner">I am currently not taking on any new in person clients. If you'd like to work with me, you can either try virtual (It's not that scary, I promise!) or <g-link href="https://forms.gle/RjZhmBe5bCBwc9b19" class="external">join my waitlist</g-link>.</p>
 
     <div class="tab-controls">
       <div

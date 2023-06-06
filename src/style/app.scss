@@ -70,6 +70,16 @@ p {
   margin: 24px 0;
 }
 
+a.external {
+  color: $c-purple;
+  font-weight: bold;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
 /**
  *
  * HEADER
@@ -375,16 +385,6 @@ table {
   border-left: 4px solid $c-pink;
   border-right: 4px solid $c-pink;
   padding: 24px;
-
-  a {
-    color: $c-purple;
-    font-weight: bold;
-    text-decoration: none;
-  }
-
-  a:hover {
-    text-decoration: underline;
-  }
 }
 
 .add-on-section {
