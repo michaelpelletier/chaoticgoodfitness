@@ -17,6 +17,7 @@
             <g-link class="nav__link" to="/">Home</g-link>
             <g-link class="nav__link" to="/about/">About</g-link>
             <g-link class="nav__link" to="/services/">Services</g-link>
+            <a href="https://chaotic-good-fitness.myspreadshop.com/" class="nav__link" target="_blank">Merch</a>
             <g-link class="nav__link" to="/contact/">Contact</g-link>
           </nav>
         </div>
