@@ -166,11 +166,14 @@ a.external {
 **/
 
 footer {
-  align-items: center;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
   margin: 48px 0 24px 0;
+
+  .footer-row {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
 
   .footer-text {
     color: $c-blue-dark;
@@ -184,6 +187,20 @@ footer {
     align-items: center;
     display: flex;
     justify-content: space-between;
+  }
+
+  a {
+    color: $c-purple;
+    text-decoration: none;
+
+    &:visited,
+    &:active {
+      color: $c-purple;
+    }
+
+    &:hover {
+      color: $c-blue-dark;
+    }
   }
 
   .social__icon {
@@ -513,6 +530,18 @@ table {
   line-height: 12px;
   position: absolute;
   top: -12px;
+}
+
+/**
+ *
+ * PRIVACY POLICY
+ *
+**/
+
+.privacy {
+  li {
+    margin-bottom: 8px;
+  }
 }
 
 /**
