@@ -48,7 +48,7 @@
       </div>
     </div>
     <div class="footer-row">
-      © 2023 Chaotic Good Fitness. All rights reserved. <g-link to="/Privacy">Privacy Policy</g-link>
+      © 2023 Chaotic Good Fitness. All rights reserved. <g-link to="/privacy">Privacy Policy</g-link>
     </div>
   </footer>
 </template>
