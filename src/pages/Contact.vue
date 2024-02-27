@@ -1,7 +1,10 @@
 <template>
   <Layout>
     <h1>Contact</h1>
-    <p>If you're ready to set up an orientation call with me, please use my <g-link href="https://calendly.com/kjharbison/new-client-orientation" class="external">Calendly</g-link> to schedule a chat!</p>
+    <p>If you're ready to set up an orientation call with me, please use the link below to schedule a chat!</p>
+
+    <g-link href="https://calendar.google.com/calendar/appointments/schedules/AcZssZ1tf0MD5LKltdpDy5QZfnjhS4WKJ3kUG6VLHPUudXxWYwqrT8ie5J5QWYLUm5aLU4bVlv73qCvs?gv=true" class="external button">Schedule orientation</g-link>
+
     <p>Otherwise if you have any questions, please feel free to contact me:</p>
     <p><b>Phone number:</b> (631) 379-7074</p>
     <p><b>Email:</b> info@chaoticgoodfitness.com</p>
@@ -27,5 +30,17 @@ export default {
       ]
     });
   },
+
+  mounted() {
+    var target = document.currentScript;
+    window.addEventListener('load', function() {
+      calendar.schedulingButton.load({
+        url: 'https://calendar.google.com/calendar/appointments/schedules/AcZssZ1tf0MD5LKltdpDy5QZfnjhS4WKJ3kUG6VLHPUudXxWYwqrT8ie5J5QWYLUm5aLU4bVlv73qCvs?gv=true',
+        color: '#039BE5',
+        label: "Book a Consultation",
+        target,
+      });
+    });
+  }
 }
 </script>
