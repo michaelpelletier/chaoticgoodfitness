@@ -2,7 +2,7 @@
   <Layout class="programs">
     <h1>Services</h1>
 
-    <p class="services-banner">I am currently not taking on any new in person clients. If you'd like to work with me, you can either try virtual (It's not that scary, I promise!) or <g-link href="https://forms.gle/RjZhmBe5bCBwc9b19" class="external">join my waitlist</g-link>.</p>
+    <p class="services-banner">I am currently not taking on any new in person clients. If you'd like to work with me, you can either try virtual (It's not that scary, I promise!)</p>
 
     <div class="tab-controls">
       <div
@@ -87,9 +87,7 @@
             <td>✓</td>
           </tr>
           <tr>
-            <td>Regular Check Ins
-              <span>Weekly questionnaires</span>
-            </td>
+            <td>Regular Check Ins</td>
             <td>✓</td>
             <td>✓</td>
             <td>✓</td>
@@ -100,7 +98,7 @@
             </td>
             <td>-</td>
             <td>✓</td>
-            <td>✓</td>
+            <td>-</td>
           </tr>
           <tr>
             <td>Weekly 1-on-1 Virtual Workout

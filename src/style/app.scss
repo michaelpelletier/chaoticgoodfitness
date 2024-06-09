@@ -138,14 +138,16 @@ a.external {
     margin: 0;
   }
 
+  nav {
+    align-items: center;
+    column-gap: 16px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
   .nav__link {
     color: $c-purple;
-    margin-left: 20px;
     text-decoration: none;
-
-    &:first-of-type {
-      margin-left: 0;
-    }
 
     &:visited,
     &:active {
@@ -608,10 +610,6 @@ table {
       margin-top: auto;
       text-align: left;
       width: 100%;
-
-      .nav__link {
-        margin-left: 12px;
-      }
     }
 
     .logo-section {

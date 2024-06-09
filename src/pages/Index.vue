@@ -25,7 +25,7 @@
         <div class="premise">
           <h2>Certifications</h2>
 
-          <p><b>Certifications:</b> ACSM, Girls Gone Strong, Silver Sneakers, and Precision Nutrition certified</p>
+          <p><b>Certifications:</b> ACSM, Trauma Informed Weight Lifting, Silver Sneakers, and Precision Nutrition certified</p>
 
           <p><b>Client Specializations:</b> Beginners, Clients with ADHD, LGBTQ+ and Gender Affirming Training (but I work with lots of other people too!)</p>
 
