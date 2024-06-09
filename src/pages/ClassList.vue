@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    <h1>Classes</h1>
+    <h1>Class List</h1>
 
     <h2>Crafting Longevity: A Crafter’s Guide to Fitness</h2>
 

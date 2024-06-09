@@ -2,8 +2,6 @@
   <Layout class="programs">
     <h1>Services</h1>
 
-    <p class="services-banner">I am currently not taking on any new in person clients. If you'd like to work with me, you can either try virtual (It's not that scary, I promise!)</p>
-
     <div class="tab-controls">
       <div
         class="tab-header"
