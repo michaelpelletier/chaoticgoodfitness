@@ -17,6 +17,16 @@
         </a>
 
         <a
+          href="https://www.instagram.com/chaoticgoodfitness23/"
+          title="Connect with us on Instagram"
+          target="_blank"
+        >
+          <svg title="Instagram logo" class="social__icon">
+            <use xlink:href="#social-insta"></use>
+          </svg>
+        </a>
+
+        <a
           href="https://www.yelp.com/biz/chaotic-good-fitness-atlanta"
           title="Connect with us on Yelp"
           target="_blank"
