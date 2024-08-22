@@ -110,9 +110,9 @@
         <tfoot>
           <tr>
             <td>Cost<span>Per Month</span></td>
-            <td>$125</td>
             <td>$150</td>
-            <td>$270</td>
+            <td>$200</td>
+            <td>$300</td>
           </tr>
         </tfoot>
       </table>
@@ -158,9 +158,9 @@
           </tr>
           <tr>
             <td>Single Session</td>
-            <td>$40</td>
-            <td>$55</td>
-            <td>$70</td>
+            <td>$50</td>
+            <td>$65</td>
+            <td>$80</td>
           </tr>
           <tr>
             <td>3 Session Pack</td>
