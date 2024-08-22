@@ -183,7 +183,7 @@
         </tbody>
       </table>
 
-      <p>Discounts available for small groups.</p>
+      <div class="addon">Discounts available for small groups.</div>
 
       <div class="addon">
         Want some nutrition coaching, too? We can add on a hybrid feature giving you access to the nutrition coaching, app, and groups of the virtual coaching for $65 each month.
