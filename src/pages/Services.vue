@@ -163,52 +163,27 @@
             <td>$80</td>
           </tr>
           <tr>
-            <td>3 Session Pack</td>
-            <td>$110</td>
-            <td>$155</td>
-            <td>$200</td>
-          </tr>
-          <tr>
-            <td>6 Session Pack</td>
-            <td>$200</td>
-            <td>$275</td>
-            <td>$350</td>
-          </tr>
-          <tr>
-            <td>12 Session Pack</td>
-            <td>$400</td>
-            <td>$550</td>
-            <td>$700</td>
-          </tr>
-          <tr class="label">
-            <td colspan="4">Small Group Packages (prices are per person)</td>
-          </tr>
-          <tr>
-            <td>Single Session</td>
-            <td>$30</td>
-            <td>$45</td>
-            <td>$60</td>
-          </tr>
-          <tr>
-            <td>3 Session Pack</td>
-            <td>$80</td>
-            <td>$124</td>
-            <td>$170</td>
-          </tr>
-          <tr>
-            <td>6 Session Pack</td>
-            <td>$150</td>
-            <td>$225</td>
+            <td>4 Session Pack</td>
+            <td>$180</td>
+            <td>$240</td>
             <td>$300</td>
           </tr>
           <tr>
-            <td>12 Session Pack</td>
-            <td>$300</td>
-            <td>$450</td>
+            <td>8 Session Pack</td>
+            <td>$360</td>
+            <td>$480</td>
             <td>$600</td>
+          </tr>
+          <tr>
+            <td>12 Session Pack</td>
+            <td>$540</td>
+            <td>$720</td>
+            <td>$900</td>
           </tr>
         </tbody>
       </table>
+
+      <p>Discounts available for small groups.</p>
 
       <div class="addon">
         Want some nutrition coaching, too? We can add on a hybrid feature giving you access to the nutrition coaching, app, and groups of the virtual coaching for $65 each month.
