@@ -270,6 +270,18 @@ footer {
   .premise {
     width: calc(100% - 400px - 32px);
   }
+
+  .homepage--center {
+    text-align: center;
+
+    p {
+      margin: 12px 0;
+    }
+
+    img {
+      width: 175px;
+    }
+  }
 }
 
 /**

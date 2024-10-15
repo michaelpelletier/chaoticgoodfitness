@@ -36,6 +36,12 @@
           <g-image alt="A photo of Keira" src="~/assets/images/keira1.jpg" />
         </div>
       </div>
+
+      <div class="homepage--center">
+        <g-image alt="Logo for the Atlanta Polyamory nonprofit" src="~/assets/images/atlanta-poly.jpg" />
+        <p>Proud sponsor of <a href="https://www.atlantapoly.org/" target="_blank">Atlanta Polyamory</a></p>
+      </div>
+
     </div>
   </Layout>
 </template>
